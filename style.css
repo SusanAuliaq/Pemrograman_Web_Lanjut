@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* --- PERUBAHAN UNTUK MEMBUAT LOGIN DI TENGAH --- */
+.container {
+    max-width: 400px;    /* Membatasi lebar kotak login */
+    margin: 100px auto;  /* Jarak 100px dari atas, dan 'auto' untuk kanan-kiri agar ke TENGAH */
+    background: white;   /* Memberi warna latar belakang putih pada kotak */
+    padding: 30px;       /* Jarak bantalan dalam kotak */
+    border-radius: 10px; /* Membuat sudut kotak melengkung halus */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Memberikan efek bayangan lembut */
+    text-align: center;  /* Membuat teks dan tombol di dalamnya ikut rata tengah */
+}
+
+/* Mengatur kolom input agar rapi berbaris ke bawah */
+.container input {
+    width: 100%;         /* Lebar penuh memenuhi kotak */
+    padding: 10px;       /* Kotak input lebih tebal dan mudah diketik */
+    margin-bottom: 15px; /* Jarak antar kolom input ke bawah */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Memastikan padding tidak merusak lebar 100% */
+}
+
+/* Mengatur tombol login agar serasi */
+.container button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background: #333;   
+}
+
+.transaksi {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.aksi {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 5px;
+}
+
+.edit {
+    background: orange;
+}
+
+.hapus {
+    background: red;
+}
